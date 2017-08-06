@@ -1,0 +1,443 @@
+html, body{
+   overflow-x: hidden;
+ }
+ body {
+   font-family: "Nunito", Helvetica, Arial, sans-serif;
+   color:#333333;
+     font-weight:light;
+     background-color:#f9f9f9;
+ }
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+     font-weight:bold;
+ }
+ h2 {
+   font-size:28px;
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+ p {
+   font-size:16px;
+   line-height: 19px;
+   font-weight: 100;
+ }
+img{
+    max-width:100%;
+}
+a{
+    text-decoration:none;
+}
+
+ /* GRID */
+
+ .container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+ .container:before,
+ .container:after {
+   content: " ";
+   display: table;
+ }
+ .container:after {
+   clear: both;
+ }
+ .one-half, .one-third, .one-fourth {
+   width:96%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 20px;
+ }
+
+
+/* HEADER */
+
+
+ header {
+   color:#f9f9f9;
+   background-image:url(../images/herobg.png);
+ }
+ header nav {
+   padding-top:1em;
+     text-align:center;
+     
+     
+ }
+ header nav ul {
+   display:inline;
+   text-align: center;
+   
+   
+ }
+ header nav ul > li {
+   list-style-type: none;
+     display:block;
+   
+ }
+ 
+ header nav ul > li > a {
+   color:#f9f9f9;
+   text-decoration: none;
+ }
+ header .hero {
+   text-align: center;
+   display:block;
+   position: relative;
+ }
+ header .hero h1 {
+   font-size:30px;
+   font-weight: normal;
+   margin:5% 0 0;
+ }
+ header .hero p {
+   font-size: 15px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 40px;
+ }
+ header .hero img {
+   display: block;
+   margin:0 auto;
+ }
+#hero-button {
+    padding:10px 0 50px;    
+}
+
+
+/* BUTTONS */
+
+
+ .btn {
+   border-radius: 4px;
+   color:#f9f9f9;
+   font-weight: 700;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #3A8A93;
+ }
+#top-button{
+    text-align:center;
+    padding-top:5%;
+}
+#bottom-button{
+    text-align:center;
+    padding-bottom:50px;
+}
+
+
+ /* Process */
+
+
+ .benefits {
+   text-align: center;
+   display:block;
+   position:relative;
+ }
+ .benefits ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefits ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefits i {
+   color:#20767f;
+   font-size:60px;
+   margin:0;
+   vertical-align: middle;
+ }
+ .benefits h2 {
+   color:#3A8A93;
+ }
+
+
+/* Case Studies */
+
+.one-third h3{
+    color:#f9f9f9;
+}
+.pricing {
+   background-image:url(../images/workbg.png);
+   background-size:cover;
+   text-align: center;
+   padding:4em 0;
+ }
+ .pricing h2, .pricing p {
+   color:#f9f9f9;
+ }
+ .pricing ul {
+   margin:0 auto;
+   padding:2em 0;
+ }
+ .pricing ul li {
+   list-style-type: none;
+ }
+.capitalbg{
+ background-image:url(../images/background.png);   
+}
+.paycravebg{
+ background-image:url(../images/background.png);   
+}
+.umbrellabg{
+ background-image:url(../images/background.png);   
+}
+
+.box {
+   padding:0 15px 15px;
+   
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+   min-height: 439px;
+   position: relative;
+   margin-top: 25px;
+ }
+ .box.middle {
+   min-height: 485px;
+   margin-top:0px;
+ }
+ .box h3 {
+   text-transform: uppercase;
+   background: #3A8A93;
+   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
+   left:0;
+   right:0;
+   top:0;
+   text-align: center;
+   margin:0 -15px 40px;
+   padding:10px 0;
+ }
+
+ /* Bio */
+
+.bio{
+    text-align:left;
+}
+
+/* Form*/
+
+input,
+textarea {
+	font-size: 1em;
+	color: #3A8A93;
+	font-weight: 300; 
+	width: 100%;
+	border: none;
+	height: auto;
+	padding: 15px;
+	outline: 0;
+	margin-bottom: 1.2em;
+	border-radius: .3em;
+	border-bottom: 3px solid rgba(0,0,0, 0.05);
+	background-color: #f9f9f9;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		
+	}
+
+label {
+	display: block;
+	margin-bottom: 0.5em; 
+	}
+
+
+#form_container {
+	padding:9%;
+	background:#3A8A93; 
+	text-align:left;
+	color:#f9f9f9;
+    
+	}
+
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer;
+	font-weight:bold;
+	font-size:1.25em;
+	}
+
+a[target="_blank"] {
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	}
+
+input:focus,textarea:focus{
+	border-color:#00454C;
+	}
+
+
+/* Social Media */
+
+
+.social_media{
+	background:#DBDBDB;
+	list-style:none;
+    text-align:center;
+    margin-top:5%;
+	}
+
+.social_media div{
+	display:inline-block;
+	padding:5% 0;
+	margin:0 5%;
+	}		
+
+/* FOOTER */
+
+
+
+.footer{
+	background:#3A8A93;
+	padding:2% 0;
+	font-size:.65em;
+	color:#f9f9f9;
+    text-align:center;
+	}	
+
+
+/* Media Queries */
+
+
+@media (min-width: 768px) {
+   .container {
+     width: 650px;
+       
+    }
+       
+    
+}
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+       
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+      
+   }
+ }
+
+@media (min-width: 992px){
+   footer{
+     
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 1em 0;
+     text-align: center;
+    }
+    
+}
+  
+ 
+
+
+@media only screen and (min-width: 480px){
+    
+    /* HEADER */
+
+
+ header {
+   color:#f9f9f9;
+   background-image:url(../images/herobg.png);
+ }
+ header nav {
+   padding:1em 0;
+     text-align:left;
+     
+ }
+ header nav ul {
+   display:inline;
+   text-align: right;
+   float:right;
+   margin:0;
+ }
+ header nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+ }
+ 
+ header nav ul > li > a {
+   color:#f9f9f9;
+   text-decoration: none;
+ }
+ header .hero {
+   text-align: center;
+   display:block;
+   position: relative;
+ }
+ header .hero h1 {
+   font-size:48px;
+   font-weight: normal;
+   margin:5% 0 0;
+ }
+ header .hero p {
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 40px;
+ }
+ header .hero img {
+   display: block;
+   margin:1em auto 0;
+ }
+#hero-button {
+    padding:50px 0 90px;    
+}
+
+ 
+
+
+ 
+
+
+#form_container {
+	padding:3% 5%;
+	border-radius:10px;
+	margin:0 4%; 
+    
+	}
+
+}
+
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+
+       	
+#form_container {
+	margin:0 15%;  
+	}
+
+.social_media div{
+	padding:3% 0;
+	margin:0 3%;
+	}
+}
+
+@media only screen and (min-width: 1140px) {
+
+ 	
+#form_container {
+	margin:0 25%; 
+   
+	}	
+
+
+
+}
