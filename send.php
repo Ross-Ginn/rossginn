@@ -1,6 +1,6 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "ross@ceruleanbluedesign.com";
+    $to = "rosswginn@gmail.com";
     $from = $_POST['email'];
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); 
+    mail($from,$subject2,$message2,$headers2);
     echo "Mail Sent. Thank you " . $first_name . ", I will contact you shortly.";
     }
 ?>
